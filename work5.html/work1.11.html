@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amman Coding Academy Survey Form</title>
+</head>
+<body>
+
+    <h1>Amman Coding Academy Survey Form</h1>
+    <p>Thank you for taking the time.</p>
+
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label for="city">City:</label><br>
+        <input type="text" id="city" name="city"><br><br>
+
+        <label for="course">Course:</label><br>
+        <input type="text" id="course" name="course"><br><br>
+
+        <label>How did you rate our service?</label><br>
+        <select id="service_rating" name="service_rating">
+            <option value="excellent">Excellent</option>
+            <option value="good">Good</option>
+            <option value="not_sure">Not Sure</option>
+        </select><br><br>
+
+        <label>Would you recommend our program to a friend?</label><br>
+        <input type="radio" id="definitely" name="recommendation" value="definitely">
+        <label for="definitely">Definitely</label><br>
+        <input type="radio" id="probably" name="recommendation" value="probably">
+        <label for="probably">Probably</label><br>
+        <input type="radio" id="not_sure_recommend" name="recommendation" value="not_sure">
+        <label for="not_sure_recommend">Not Sure</label><br>
+        <input type="radio" id="no" name="recommendation" value="no">
+        <label for="no">No</label><br><br>
+
+        <label>What is your strongest coding strengths? (Check all that apply)</label><br>
+        <input type="checkbox" id="problem_solving" name="strengths[]" value="problem_solving">
+        <label for="problem_solving">Problem Solving</label><br>
+        <input type="checkbox" id="logical_thinking" name="strengths[]" value="logical_thinking">
+        <label for="logical_thinking">Logical Thinking</label><br>
+        <input type="checkbox" id="coding_fluency" name="strengths[]" value="coding_fluency">
+        <label for="coding_fluency">Coding Fluency</label><br>
+        <input type="checkbox" id="quick_learning" name="strengths[]" value="quick_learning">
+        <label for="quick_learning">Quick Learning</label><br><br>
+
+        <label>What would you like to see improved in our program? (Check all that apply)</label><br>
+        <input type="checkbox" id="course_content" name="improvements[]" value="course_content">
+        <label for="course_content">Course Content</label><br>
+        <input type="checkbox" id="teaching_methods" name="improvements[]" value="teaching_methods">
+        <label for="teaching_methods">Teaching Methods</label><br>
+        <input type="checkbox" id="practical_training" name="improvements[]" value="practical_training">
+        <label for="practical_training">Practical Training</label><br>
+        <input type="checkbox" id="support" name="improvements[]" value="support">
+        <label for="support">Support</label><br><br>
+
+        <label for="comments">Any comments or suggestions?</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

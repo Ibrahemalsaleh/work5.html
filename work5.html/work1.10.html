@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form>
+        <label for="name">Enter Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="password">Enter Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="address">Enter Address:</label><br>
+        <textarea id="address" name="address" rows="3" cols="30"></textarea><br><br>
+
+        <label>Select Game:</label><br>
+        <input type="checkbox" id="hockey" name="game" value="hockey">
+        <label for="hockey">Hockey</label><br>
+        <input type="checkbox" id="football" name="game" value="football">
+        <label for="football">Football</label><br>
+        <input type="checkbox" id="badminton" name="game" value="badminton">
+        <label for="badminton">Badminton</label><br>
+        <input type="checkbox" id="cricket" name="game" value="cricket">
+        <label for="cricket">Cricket</label><br>
+        <input type="checkbox" id="volleyball" name="game" value="volleyball">
+        <label for="volleyball">Volleyball</label><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="age">Select your age:</label><br>
+        <select id="age" name="age">
+            <option value="">Select</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+                        <option value="20">20</option>
+            </select><br><br>
+
+        <label for="photo">Select Photo:</label><br>
+        <input type="file" id="photo" name="photo"><br><br>
+
+        <button type="button" onclick="alert('Clicked!')">Click Me</button>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit Form">
+    </form>
+
+</body>
+</html>
